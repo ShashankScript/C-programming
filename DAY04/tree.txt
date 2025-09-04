@@ -1,0 +1,19 @@
+//Binary Tree are of 4 types
+
+
+//i) full binary tree : each node have 2 children except leaf node
+
+//ii)complete binary tree : All levels are completely filled except the last level as it is filled
+//from left to right 
+
+//iii)perefect binary tree : All internal nodes have 2 children and all leafs are at same level
+
+//iv) degenerating binary tree : All internal nodes have 1 children
+
+//v) full/strict/proper : each node have 0 or 2 children
+
+//Traversal : Inorder : L Root R
+//            Preorder: Root L R
+//            Postorder: L R Root  
+
+//--- Binary search treee

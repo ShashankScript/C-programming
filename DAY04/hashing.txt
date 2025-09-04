@@ -1,0 +1,10 @@
+//chaining
+Keys = 25,97,80,65,38,40,54,76,17,49,35,23
+
+M = 10
+
+H(k) = Key %M
+
+
+
+//linear probing
