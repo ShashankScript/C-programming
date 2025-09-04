@@ -8,3 +8,23 @@ H(k) = Key %M
 
 
 //linear probing
+
+Keys = 56,79,41,44,21,43,11,29
+
+
+M = 10
+Keys: 56, 79, 41, 44, 21, 43, 11, 29
+Key	Hash (key % 10)	Slot Used	If Collision, Next Slot(s)
+56	6	6	
+79	9	9	
+41	1	1	
+44	4	4	
+21	1	2	1 is full, so use 2
+43	3	3	
+11	1	5	1,2,4 full, so use 5
+29	9	0	9 full, so use 0
+Final Table (index: key)
+0	1	2	3	4	5	6	7	8	9
+29	41	21	43	44	11	56			79
+Summary:
+Linear probing handles collisions by checking the next available slot in a sequential manner.
