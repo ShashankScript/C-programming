@@ -1,0 +1,20 @@
+1) Print operands as they arrive
+
+2) If stack is empty or contain a left parentheses on top of the stack then push the incoming
+symbol onto the stack
+
+3)if incoming symbol is left parenthses then push it into stack
+
+4)if incoming symbol is right parentheses pop the stack until left parentheses encounter
+
+5)if incoming symbol has higher precedence then top of the stack then push it into the stack
+
+6)if incoming symbol has lower precedence then top of the stack then pop and print the top then test the
+new incoming operator with the top of the stack
+
+7)if incoming operator has equal precedence then go for the associativity rule 
+   a)if associativity is left to right then pop and print the top of the stack and push the incoming
+   operator 
+   b)if associativity is right to left then push the incoming operator
+
+8)print all the operators from the stack 
